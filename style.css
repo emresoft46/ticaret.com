@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.menu {
+  background-color: #1a1a1a; 
+  height: 70px;
+  padding: 10px;
+}
+
+
+.kategori-container {
+  margin: 0;
+  padding: 0;
+  height: 70px;
+  background-color: #f4f4f4; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.kategori-card {
+  background-color: #ffffff;
+  height: 50px;
+  width: 100px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 5px;
+  border: 1px solid #e0e0e0;
+}
+
+#kategori-link {
+  color: #333333; 
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.indirim-container {
+  background-color: #ff4757; 
+  height: 140px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.indirim-img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 2px solid #ffffff; 
+}
+.indirim-img:hover{
+   border: 5px solid #ffffff; 
+}
+.indirim-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.indirim-prg {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.indirim-prg a {
+  text-decoration: none;
+  color: #ffffff; 
+}
+
+.urunler-container {
+  background-color: #f9f9f9; 
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.urunler-card {
+  background-color: #ffffff; 
+  height: 350px;
+  width: 260px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.urunler-img {
+  width: 260px;
+  height: 230px;
+}
+.urunler-img img {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.details {
+  font-size: small;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #555555; 
+}
+
+
+
+.price-box {
+  background-color: #ffffff;
+  height: 60px;
+  width: 260px;
+}
+
+.price{
+  font-size: 30px;
+  color: #2f3542; 
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#btn-sepetAdd{
+  border-radius: 25px;
+  text-align: center;
+  font-weight: bold;
+  float: right;
+  background-color: #2f3542;
+  color: white;
+  border: none;
+  padding: 15px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#btn-sepetAdd:hover{
+    background-color: #626264;
+}
+
+.urunler-title{
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+footer{
+  background-color: #1a1a1a;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+
+
+
+.footer-link{
+  text-decoration: none;
+  color: #cccccc;
+  transition: 0.3s;
+}
+.footer-link:hover{
+  color: #706c6c;
+
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style-type: none ;
+  text-align: center;
+}
+
+.footer-title{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffff;
+  text-align: center;
+}
+
+
+.btn{
+  width: 100px;
+  border: none;
+  border-radius: 15px;
+  padding: 5px;
+  font-weight: bold;
+  background-color: skyblue;
+  border: 1px solid gray;
+}
+
+.account-btn{
+
+  float: right;
+  line-height: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#menu-title{
+  display: inline-block;
+  background-color: rgb(173, 108, 108);
+  /* box-shadow:inset 5px 5px 5px 10px black; */
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  font-weight: 550;
+  
+}
+
+#large-char{
+  font-size: 40px;
+  font-weight: 800;
+  font-family:'Times New Roman', Times, serif;
+  text-shadow: 5px 5px 10px  #121212;
+}
+
+#sepet-btn{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: gray;
+  font-size: large;
+  color: #ffff;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.sm-logo{
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+
+.sm-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:justify;
+  height: 3vh;
+}
